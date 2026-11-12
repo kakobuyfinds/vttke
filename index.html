@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>KakoBuy spreadsheet – dansk guide til sko, tøj og kvalitetskontrol</title>
+<meta name="description" content="Brug et KakoBuy spreadsheet til at sammenligne sko, tøj og tilbehør. Få danske råd om produktlinks, mål, QC-billeder og samlet pris i DKK.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="da_DK">
+<meta property="og:title" content="KakoBuy spreadsheet – dansk indkøbsguide">
+<meta property="og:description" content="Find en kategori, kontrollér mål og produktfotos, og sammenlign omkostninger før køb.">
+<style>
+:root{color-scheme:light;--paper:#faf7ef;--ink:#231d2b;--muted:#584d60;--accent:#4f2c79;--line:#d6c9dd;--tint:#eee5f3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+.wrap{width:min(72rem,calc(100% - 2rem));margin-inline:auto}
+a{color:var(--accent);text-underline-offset:.22em}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+header,footer{padding:1rem 0;border-bottom:1px solid var(--line)}
+header a{font-weight:800;letter-spacing:.04em}
+footer{border-top:1px solid var(--line);border-bottom:0;color:var(--muted)}
+.hero{display:grid;grid-template-columns:1.35fr 1fr;gap:clamp(1rem,5vw,4rem);align-items:center;padding:clamp(1.4rem,5vw,4rem) 0}
+h1,h2,h3,p,figure{margin:0}
+h1,h2{font-family:Georgia,serif;line-height:1.08}
+h1{font-size:clamp(2.6rem,7vw,5.5rem);overflow-wrap:anywhere}
+h2{font-size:clamp(1.8rem,4vw,2.75rem);margin-bottom:.75rem}
+h3{font-size:1.17rem;line-height:1.3}
+p+p,.hero p,.panel p{margin-top:.65rem}
+.hero img,.gallery img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#f2edf2;border-radius:.65rem}
+figcaption{font-size:.86rem;color:var(--muted);margin-top:.35rem}
+.button{display:inline-block;margin-top:1rem;padding:.65rem 1rem;border-radius:.4rem;background:var(--accent);color:white;font-weight:700}
+section{padding:1.45rem 0;border-top:1px solid var(--line)}
+.categories,.gallery,.guides{display:grid;gap:.65rem}
+.categories{grid-template-columns:repeat(auto-fit,minmax(min(100%,11rem),1fr));padding:0;margin:1rem 0 0;list-style:none}
+.categories a{display:flex;align-items:center;min-height:3rem;padding:.55rem .7rem;border:1px solid var(--line);border-radius:.4rem;background:white;font-weight:650}
+.categories a:hover{background:var(--tint)}
+.gallery,.guides{grid-template-columns:repeat(2,minmax(0,1fr))}
+.panel{padding:1rem;background:white;border:1px solid var(--line);border-radius:.5rem}
+.gallery{margin-top:1rem}
+details{border-bottom:1px solid var(--line);padding:.7rem 0}
+summary{cursor:pointer;font-weight:700}
+details p{padding:.35rem 0 .15rem}
+@media(max-width:43rem){.hero,.guides{grid-template-columns:1fr}.hero img{max-height:19rem}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"WebPage","inLanguage":"da","name":"KakoBuy spreadsheet","description":"Dansk guide til produktlinks, størrelser, kvalitetskontrol og samlet pris."},
+    {"@type":"FAQPage","inLanguage":"da","mainEntity":[
+      {"@type":"Question","name":"Hvad er et KakoBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Det er en oversigt over produktlinks, som kan bruges til at finde varer og sammenligne oplysninger som variant, mål og sælgerens viste pris."}},
+      {"@type":"Question","name":"Hvor åbner kategorierne på denne side?","acceptedAnswer":{"@type":"Answer","text":"De ti kategorier åbner hos CAFANS. Denne side er en uafhængig dansk indkøbsguide."}},
+      {"@type":"Question","name":"Hvordan tjekker jeg størrelsen før køb?","acceptedAnswer":{"@type":"Answer","text":"Mål et stykke tøj eller et par sko, der passer dig, og sammenlign målene i centimeter med sælgerens tabel for den valgte variant."}},
+      {"@type":"Question","name":"Hvad viser et QC-billede?","acceptedAnswer":{"@type":"Answer","text":"Et QC-billede kan vise den vare, der er modtaget til kontrol. Bed om relevante nærbilleder og mål, hvis de mangler. Billeder alene kan ikke fastslå ægthed."}},
+      {"@type":"Question","name":"Hvordan sammenligner jeg den samlede pris i DKK?","acceptedAnswer":{"@type":"Answer","text":"Omregn varepris, fragt og eventuelle gebyrer med samme valutakurs. Medregn også eventuel moms, told og transportørens håndteringsgebyr."}}
+    ]}
+  ]
+}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/vttke/">
+</head>
+<body>
+<header><div class="wrap"><a href="https://www.cafans.com">www.cafans.com</a></div></header>
+<main class="wrap">
+  <section class="hero" aria-labelledby="titel">
+    <div>
+      <h1 id="titel">KakoBuy spreadsheet</h1>
+      <p>Brug et KakoBuy spreadsheet til at finde produktlinks og sammenligne varer. Vælg en kategori hos CAFANS, og brug guiden til at tjekke størrelse, billeder og samlet pris, før du beslutter dig.</p>
+      <a class="button" href="https://www.cafans.com">Åbn CAFANS</a>
+    </div>
+    <figure>
+      <img src="https://nikeclprod.vtexassets.com/arquivos/ids/160793/CW2288_111_A_PREM.jpg?v=637654399803530000" width="640" height="480" fetchpriority="high" decoding="async" alt="Hvid Nike Air Force 1 ’07 set fra siden med hvid sål">
+      <figcaption>Nike Air Force 1 ’07 · Billedeksempel</figcaption>
+    </figure>
+  </section>
+  <section aria-labelledby="kategorier">
+    <h2 id="kategorier">Find din kategori</h2>
+    <nav aria-label="Produktkategorier hos CAFANS">
+      <ul class="categories">
+        <li><a href="https://cafans.com/category-911-Shoes.html">Sko</a></li>
+        <li><a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">Hættetrøjer og sweatre</a></li>
+        <li><a href="https://cafans.com/category-913-T-Shirts.html">T-shirts</a></li>
+        <li><a href="https://cafans.com/category-914-Jackets.html">Jakker</a></li>
+        <li><a href="https://cafans.com/category-915-Pants%2FShorts.html">Bukser og shorts</a></li>
+        <li><a href="https://cafans.com/category-916-Headwear.html">Hovedbeklædning</a></li>
+        <li><a href="https://cafans.com/category-917-Sets.html">Tøjsæt</a></li>
+        <li><a href="https://cafans.com/category-918-underwear%2Funderpants.html">Undertøj</a></li>
+        <li><a href="https://cafans.com/category-919-Jersey.html">Sportstrøjer</a></li>
+        <li><a href="https://cafans.com/category-920-Accessories.html">Tilbehør</a></li>
+      </ul>
+    </nav>
+  </section>
+  <section aria-labelledby="guider">
+    <h2 id="guider">Fire tjek før køb</h2>
+    <div class="guides">
+      <article class="panel">
+        <h3>Produktlinks og varianter</h3>
+        <p>Åbn det originale produktlink til Weidian, Taobao eller 1688, hvis oversigten angiver det. Tjek modelnummer, farvekode og lagerstatus for den valgte størrelse. Hvis linket er dødt, kan modelnummer og sælgernavn hjælpe dig med at finde annoncen igen.</p>
+      </article>
+      <article class="panel">
+        <h3>Størrelsesguide til sko og tøj</h3>
+        <p>Sammenlign indersålens længde i centimeter for sneakers. Brug brystbredde og ærmelængde til trøjer, og taljemål og indvendig benlængde til bukser. Tjek, om størrelsestabellen viser flade tøjmål eller kropsmål.</p>
+      </article>
+      <article class="panel">
+        <h3>QC-billeder og detaljer</h3>
+        <p>Brug sælgerens fotos til at forstå modellen. Bed om lagerfotos af den modtagne vare, hvis tjenesten tilbyder dem. Se efter syninger ved hælen, mærkater i tøjet, en taskes lynlås og et armbånds lås. Tjek returfristen, før du godkender varen.</p>
+      </article>
+      <article class="panel">
+        <h3>Fragt til Danmark og pris i DKK</h3>
+        <p>Skriv varepris, indenrigsfragt, servicegebyr og international fragt på hver sin linje. Kontrollér pakkens faktiske vægt og eventuelle volumenvægt. Omregn til kroner med samme valutakurs, og tjek eventuelle importomkostninger, før du sammenligner.</p>
+      </article>
+    </div>
+  </section>
+  <section aria-labelledby="detaljer">
+    <h2 id="detaljer">Detaljer at kigge efter</h2>
+    <p>Modellerne er billedeksempler. Spørg sælgeren om mål og dokumentation for den konkrete vare.</p>
+    <div class="gallery">
+      <figure>
+        <img src="https://assets.christiandior.com/is/image/diorprod/683M620A7040C585_E01-1?wid=520" width="520" height="390" loading="lazy" decoding="async" alt="Blå Dior Oblique-striktrøje med jacquardmønster">
+        <figcaption>Dior · Se på ribkanter og trøjens faktiske bredde.</figcaption>
+      </figure>
+      <figure>
+        <img src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg" width="640" height="480" loading="lazy" decoding="async" alt="Gucci-kasket i beige og brunt GG-mønstret kanvas">
+        <figcaption>Gucci · Tjek hovedomkreds, skærmens form og lukkespænde.</figcaption>
+      </figure>
+      <figure>
+        <img src="https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-keepall-55--M41424_PM1_Side%20view.png?hei=480&amp;wid=480" width="480" height="360" loading="lazy" decoding="async" alt="Brun Louis Vuitton Keepall 55 med monogram og lyse hanke">
+        <figcaption>Louis Vuitton · Sammenlign taskens mål, hanke og lynlås.</figcaption>
+      </figure>
+      <figure>
+        <img src="https://www.crepslocker.com/cdn/shop/files/hermes-paris-clic-h-black-bracelet-h700001fv01pm-front.webp?v=1716898801&amp;width=480" width="480" height="360" loading="lazy" decoding="async" alt="Sort Hermès Clic H-armbånd med guldfarvet H-lås">
+        <figcaption>Hermès · Bed om indvendig omkreds og et billede af låsen.</figcaption>
+      </figure>
+    </div>
+  </section>
+  <section aria-labelledby="faq">
+    <h2 id="faq">Ofte stillede spørgsmål</h2>
+    <details open><summary>Hvad er et KakoBuy spreadsheet?</summary><p>Det er en oversigt over produktlinks, som kan bruges til at finde varer og sammenligne oplysninger som variant, mål og sælgerens viste pris.</p></details>
+    <details><summary>Hvor åbner kategorierne på denne side?</summary><p>De ti kategorier åbner hos CAFANS. Denne side er en uafhængig dansk indkøbsguide.</p></details>
+    <details><summary>Hvordan tjekker jeg størrelsen før køb?</summary><p>Mål et stykke tøj eller et par sko, der passer dig, og sammenlign målene i centimeter med sælgerens tabel for den valgte variant.</p></details>
+    <details><summary>Hvad viser et QC-billede?</summary><p>Et QC-billede kan vise den vare, der er modtaget til kontrol. Bed om relevante nærbilleder og mål, hvis de mangler. Billeder alene kan ikke fastslå ægthed.</p></details>
+    <details><summary>Hvordan sammenligner jeg den samlede pris i DKK?</summary><p>Omregn varepris, fragt og eventuelle gebyrer med samme valutakurs. Medregn også eventuel moms, told og transportørens håndteringsgebyr.</p></details>
+  </section>
+</main>
+<footer><div class="wrap"><p>Uafhængig dansk indkøbsguide · <a href="https://www.cafans.com">Besøg CAFANS</a></p></div></footer>
+</body>
+</html>
